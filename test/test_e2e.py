@@ -5,98 +5,87 @@ import time
 import json
 from selenium.webdriver.common.by import By
 
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions as ec
 
-
-#@pytest.mark.usefixtures("setup")
+import Testdata
+from Testdata import landing_data
+from Testdata.landing_data import Page
+from pageobjects import careerinterest, careerinterest1, careerinterest2
+from pageobjects.Landingpage import lp
+from pageobjects.careerinterest import ci
 from utility.base_clas import base_clas
 
 
 class Testing(base_clas):
 
-    def test_e2end(self):
+    def test_e2end(self, getdata):
+        
+        log = self.getloggr()
 
+        landing = lp(self.driver)
 
-        print("url is ", self.driver.current_url)
-        time.sleep(140)
+        landing.signin_wait()
 
-        print("sign in")
+        landing.sign_button().click()
 
-        self.driver.find_element(By.XPATH, "//div[@class='branded-masthead__content']/div[2]/a").click()
+        landing.user_name_wait()
 
+        landing.user_name().send_keys(getdata["uname"])
 
-        #self.driver.find_element(By.XPATH, "//div[@class='branded-masthead__content']/div[2]/a").click()
+        log.info("username entered")
 
-        time.sleep(4)
+        landing.pass_wd().send_keys(getdata["passwd"])
 
-        print("email")
+        log.info("Passwd entered")
 
-        self.driver.find_element(By.XPATH, "//input[@name='Email Address']").send_keys("")
+        landing.submit_button().click()
 
-        time.sleep(0)
+        landing.take_quiz_wait()
 
-        print("password")
+        careerinterest = landing.take_quiz()
 
-        self.driver.find_element(By.XPATH, "//*[contains(@id,'password')]").send_keys("")
+        log.info("take new quiz")
 
-        time.sleep(0)
+        # print("view result")
 
-        print("submit")
+        # self.driver.find_element(By.XPATH, "//a[@title='Link to View results for Job Ideas Quiz']").click()
 
-        self.driver.find_element(By.CSS_SELECTOR, "button[type='submit']").click()
+        # time.sleep(6)
 
-        time.sleep(6)
-
-        print("take quiz new")
-
-        self.driver.find_element(By.XPATH, "//a[@title='Link to Take Job Ideas Quiz']").click()
-
-        #print("view result")
-
-        #self.driver.find_element(By.XPATH, "//a[@title='Link to View results for Job Ideas Quiz']").click()
-
-        #time.sleep(6)
-
-        #self.driver.find_element(By.XPATH, "//button[(text()='take Job Ideas Quiz again')]").click()
+        # self.driver.find_element(By.XPATH, "//button[(text()='take Job Ideas Quiz again')]").click()
 
         # time.sleep(5)
 
-        time.sleep(7)
+        careerinterest.q1_wait()
 
-        print("Career interests : question 1 below")
+        careerinterest.quest1().click()
 
-        self.driver.find_element(By.XPATH, "//*[contains(@id,'33bd84a0-edd2-ed11-a7c7-0022481b53e3')]/div/div[3]/div/label/span[1]/span").click()
+        careerinterest.quest2().click()
 
-        time.sleep(0)
+        careerinterest.quest3().click()
 
-        print("Career interests : question 2 below")
+        careerinterest.quest4().click()
 
-        self.driver.find_element(By.XPATH, "//*[contains(@id,'39bd84a0-edd2-ed11-a7c7-0022481b53e3')]/div/div[2]/div/label/span[1]/span").click()
+        careerinterest.quest5().click()
 
-        time.sleep(0)
+        self.next_wait()
 
-        print("Career interests : question 3 below")
+        self.next_butn().click()
 
-        self.driver.find_element(By.XPATH, "//*[contains(@id,'3bbd84a0-edd2-ed11-a7c7-0022481b53e3')]/div/div[2]/div/label/span[1]/span").click()
+        log.info("Page 1 saved")
 
-        time.sleep(0)
+        careerinterest.q6_wait()
 
-        print("Career interests : question 4 below")
+        careerinterest.quest6().click()
 
-        self.driver.find_element(By.XPATH, "//*[contains(@id,'42bd84a0-edd2-ed11-a7c7-0022481b53e3')]/div/div[1]/div/label/span[1]/span").click()
-
-        time.sleep(0)
-
-        print("Career interests : question 5 below")
-
-        self.driver.find_element(By.XPATH, "//*[contains(@id,'44bd84a0-edd2-ed11-a7c7-0022481b53e3')]/div/div[1]/div/label/span[1]/span").click()
+        self.driver.find_element(By.XPATH, "//div[contains(@class,'content__helper-menu')]/a[2]").click()
 
         time.sleep(3)
 
-        print("Career interests : next")
-
-        self.driver.find_element(By.XPATH, "//*[contains(@title,'Link to next')]").click()
-
-        time.sleep(500)
+    @pytest.fixture(params=Page.datavalue)
+    def getdata(self, request):
+        return request.param
 
 
 
@@ -105,8 +94,14 @@ class Testing(base_clas):
 
 
 
+"""
+    @pytest.fixture(params=Page.gettestdata_full())
+    def getdata(self, request):
+        return request.param
+"""
 
-
-
-
-
+"""
+    @pytest.fixture(params=Page.gettestdata("Testcase1"))
+    def getdata(self, request):
+        return request.param
+"""
