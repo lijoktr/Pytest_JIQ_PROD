@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
-from pageobjects.careerinterest import ci
+from pageobjects.careerinterest1 import ci1
 from selenium.webdriver.support import expected_conditions as ec
 
 
@@ -46,9 +46,7 @@ class lp:
             ec.visibility_of_element_located((lp.takequiz)))
 
     def take_quiz(self):
-        self.driver.find_element(*lp.takequiz).click()
-        careerinterest = ci(self.driver)
-        return careerinterest
+        return self.driver.find_element(*lp.takequiz)
         #self.driver.find_element(By.XPATH, "//a[@title='Link to Take Job Ideas Quiz']").click()
 
 

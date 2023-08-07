@@ -17,7 +17,7 @@ def setup(request):
         driver = webdriver.Chrome()
     elif browser_name == "edge":
         driver = webdriver.Edge()
-    driver.get("https://sysint.careerswales.gov.wales/job-ideas-quiz")
+    driver.get("https://uat.careerswales.gov.wales/job-ideas-quiz")
     driver.maximize_window()
     request.cls.driver = driver   #instead of return driver
     yield

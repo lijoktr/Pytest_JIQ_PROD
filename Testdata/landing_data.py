@@ -2,9 +2,11 @@ import openpyxl
 
 
 class Page:
-    datavalue = [{"uname": "Lijo.mathew+1@careerswales.gov.wales", "passwd": "Lijo@sysint1"}, {"uname": "Lijo.mathew+5@careerswales.gov.wales", "passwd": "Lijo@sysint5"}]
+    datavalue = [{"uname": "Lijo.mathew+129@careerswales.gov.wales", "passwd": ""}]
 
-    @staticmethod
+
+"""
+  @staticmethod
     def gettestdata(testcase_name):
 
         Dict = {}
@@ -19,6 +21,8 @@ class Page:
                     Dict[sheet.cell(row=1, column=j).value] = sheet.cell(row=i, column=j).value
 
         return [Dict]
+"""
+
 
 
 """

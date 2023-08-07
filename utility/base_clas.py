@@ -19,7 +19,7 @@ class base_clas:
         loggerName = inspect.stack()[1][3]
         logger = logging.getLogger(loggerName)
 
-        filehandler = logging.FileHandler('logfile.log')
+        filehandler = logging.FileHandler('./test/logfile.log')
 
         formatter = logging.Formatter("%(asctime)s : %(levelname)s : %(name)s : %(message)s")
 
@@ -38,3 +38,5 @@ class base_clas:
     def next_butn(self):
         return self.driver.find_element(*base_clas.next)
         # self.driver.find_element(By.XPATH, "//*[contains(@title,'Link to next')]").click()
+
+

@@ -3,9 +3,9 @@ import pytest
 import Testdata
 from Testdata import landing_data
 from Testdata.landing_data import Page
-from pageobjects import careerinterest
+from pageobjects import careerinterest3
 from pageobjects.Landingpage import lp
-from pageobjects.careerinterest import ci
+from pageobjects.careerinterest1 import ci1
 from utility.base_clas import base_clas
 import time
 
