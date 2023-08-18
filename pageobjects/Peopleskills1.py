@@ -9,15 +9,15 @@ class Ps1:
     def __init__(self, driver):
         self.driver = driver
 
-    ps_q1 = (By.XPATH, "//*[contains(@id,'2bf9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/div/label/span[1]/span")
+    ps_q1 = (By.XPATH, "//*[contains(@id,'2bf9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
 
-    ps_q2 = (By.XPATH, "//*[contains(@id,'2ef9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[1]/div/label/span[1]/span")
+    ps_q2 = (By.XPATH, "//*[contains(@id,'2ef9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[1]/span/label/span[1]/span")
 
-    ps_q3 = (By.XPATH, "//*[contains(@id,'57f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/div/label/span[1]/span")
+    ps_q3 = (By.XPATH, "//*[contains(@id,'57f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
 
-    ps_q4 = (By.XPATH, "//*[contains(@id,'61f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[2]/div/label/span[1]/span")
+    ps_q4 = (By.XPATH, "//*[contains(@id,'61f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[2]/span/label/span[1]/span")
 
-    ps_q5 = (By.XPATH, "//*[contains(@id,'63f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[2]/div/label/span[1]/span")
+    ps_q5 = (By.XPATH, "//*[contains(@id,'63f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[2]/span/label/span[1]/span")
 
     def ps_q1_wait(self):
         Wait = WebDriverWait(self.driver, 10).until(

@@ -9,6 +9,7 @@ from pageobjects.Peopleskills1 import Ps1
 from pageobjects.Peopleskills3 import Ps3
 from pageobjects.Peopleskills4 import Ps4
 from pageobjects.Peopleskills5 import Ps5
+from pageobjects.Result import Result_page
 
 from pageobjects.careerinterest1 import ci1
 from pageobjects.careerinterest2 import ci2
@@ -55,7 +56,7 @@ class Testing(base_clas):
 
         landing.submit_button().click()
 
-        log.info("take new quiz")
+        log.info("submit")
 
         landing.take_quiz_wait()
 
@@ -63,7 +64,7 @@ class Testing(base_clas):
 
         log.info("take new quiz")
 
-        # print("view result")
+        # log.info("view result")
 
         # self.driver.find_element(By.XPATH, "//a[@title='Link to View results for Job Ideas Quiz']").click()
 
@@ -111,7 +112,7 @@ class Testing(base_clas):
                 people_skills = None
                 work_environment = None
 
-            # print("view result")
+            # log.info("view result")
 
             # self.driver.find_element(By.XPATH, "//a[@title='Link to View results for Job Ideas Quiz']").click()
 
@@ -291,21 +292,58 @@ class Testing(base_clas):
 
             log.info("Quiz submitted")
 
-            work_environment.tq_again_wait()
+            wait = WebDriverWait(self.driver, 10)
 
-            #wait = WebDriverWait(self.driver, 10)
+            result = Result_page(self.driver)
 
             try:
-                work_environment.take_quiz_again()
+                log.info("retake_wait")
+                wait = result.retake_wait()
                 log.info("take_quiz_again")
+                result.retake().click()
 
             except:
-                log.info("max limit(5) of taking quiz reached. ")
+                log.info("max limit(5) of taking quiz reached.")
 
-            if work_environment == We5(self.driver):
+                # Find the table element
+                table = result.table()  # Replace with the actual table locator
+
+                log.info("table located")
+
+                rows = result.row_locate(table)
+
+                actual_data_column_3 = []
+                actual_data_column_4 = []
+
+                log.info("Loop through each row and extract the data from the 3rd and 4th column")
+                for row in rows:
+                    cells = result.column_locate(row)
+
+                    if len(cells) > 2:
+                        data_column_3 = cells[2].text
+                        data_column_4 = cells[3].text
+                        actual_data_column_3.append(data_column_3)
+                        actual_data_column_4.append(data_column_4)
+                # log.info("actual data stored")
+
+                # Expected data that you want to verify against
+                expected_data_column_3 = ["Plumber", "Sports Coach", "Animal Attendant",
+                                          "Plasterer", "Veterinary Nurse", "Nurse", "Bricklayer", "Factory Worker",
+                                          "Electrician", "Painter and Decorator"]  # Replace with actual expected data
+                expected_data_column_4 = ["85%", "83%", "82%", "80%", "80%", "75%", "74%", "74%", "70%",
+                                          "70%"]  # Replace with actual expected data
+
+                # log.info("expected data stored")
+                log.info(actual_data_column_3)
+                log.info(actual_data_column_4)
+
+                # Verify if the actual data from the 2nd and 3rd columns match the expected data
+                if actual_data_column_3 == expected_data_column_3 and actual_data_column_4 == expected_data_column_4:
+                    log.info("Data verification successful for the 2nd and 3rd columns.")
+                else:
+                    log.info("Data verification failed for the 2nd and 3rd columns.")
+
                 self.driver.quit()
-            else:
-                time.sleep(5)
 
     @pytest.fixture(params=Page.datavalue)
     def getdata(self, request):
