@@ -2,7 +2,7 @@ import openpyxl
 
 
 class Page:
-    datavalue = [{"uname": "Lijo.mathew+129@careerswales.gov.wales", "passwd": "Lijo@cardiff2"}]
+    datavalue = [{"uname": "", "passwd": ""}]
 
 
 """

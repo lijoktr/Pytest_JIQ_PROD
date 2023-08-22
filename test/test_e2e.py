@@ -306,6 +306,7 @@ class Testing(base_clas):
 
             except:
                 log.info("max limit(5) of taking quiz reached.")
+<<<<<<< HEAD
 
                 # Find the table element
                 table = result.table()  # Replace with the actual table locator
@@ -345,6 +346,48 @@ class Testing(base_clas):
                 else:
                     log.info("Data verification failed for the 2nd and 3rd columns.")
                 return
+=======
+
+                # Find the table element
+                table = result.table()  # Replace with the actual table locator
+
+                log.info("table located")
+
+                rows = result.row_locate(table)
+
+                actual_data_column_3 = []
+                actual_data_column_4 = []
+
+                log.info("Loop through each row and extract the data from the 3rd and 4th column")
+                for row in rows:
+                    cells = result.column_locate(row)
+
+                    if len(cells) > 2:
+                        data_column_3 = cells[2].text
+                        data_column_4 = cells[3].text
+                        actual_data_column_3.append(data_column_3)
+                        actual_data_column_4.append(data_column_4)
+                # log.info("actual data stored")
+
+                # Expected data that you want to verify against
+                expected_data_column_3 = ["Plumber", "Sports Coach", "Animal Attendant",
+                                          "Plasterer", "Veterinary Nurse", "Nurse", "Bricklayer", "Factory Worker",
+                                          "Electrician", "Painter and Decorator"]  # Replace with actual expected data
+                expected_data_column_4 = ["85%", "83%", "82%", "80%", "80%", "75%", "74%", "74%", "70%",
+                                          "70%"]  # Replace with actual expected data
+
+                # log.info("expected data stored")
+                log.info(actual_data_column_3)
+                log.info(actual_data_column_4)
+
+                # Verify if the actual data from the 2nd and 3rd columns match the expected data
+                if actual_data_column_3 == expected_data_column_3 and actual_data_column_4 == expected_data_column_4:
+                    log.info("Data verification successful for the 2nd and 3rd columns.")
+                else:
+                    log.info("Data verification failed for the 2nd and 3rd columns.")
+
+                self.driver.quit()
+>>>>>>> 5ba2ad54f3ee954d0cbd51cb94064013f6151cd4
 
     @pytest.fixture(params=Page.datavalue)
     def getdata(self, request):

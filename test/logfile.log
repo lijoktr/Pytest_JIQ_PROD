@@ -1558,6 +1558,7 @@
 2023-08-18 16:47:13,420 : INFO : test_e2end : ['Plumber', 'Sports Coach', 'Animal Attendant', 'Plasterer', 'Veterinary Nurse', 'Nurse', 'Bricklayer', 'Factory Worker', 'Electrician', 'Painter and Decorator']
 2023-08-18 16:47:13,420 : INFO : test_e2end : ['85%', '83%', '82%', '80%', '80%', '75%', '74%', '74%', '70%', '70%']
 2023-08-18 16:47:13,420 : INFO : test_e2end : Data verification successful for the 2nd and 3rd columns.
+<<<<<<< HEAD
 2023-08-21 12:19:20,476 : INFO : test_e2end : username entered
 2023-08-21 12:19:20,862 : INFO : test_e2end : Passwd entered
 2023-08-21 12:19:21,103 : INFO : test_e2end : submit
@@ -2005,3 +2006,5 @@
 2023-08-22 13:38:10,236 : INFO : test_e2end : ['Plumber', 'Sports Coach', 'Animal Attendant', 'Plasterer', 'Veterinary Nurse', 'Nurse', 'Bricklayer', 'Factory Worker', 'Electrician', 'Painter and Decorator']
 2023-08-22 13:38:10,236 : INFO : test_e2end : ['85%', '83%', '82%', '80%', '80%', '75%', '74%', '74%', '70%', '70%']
 2023-08-22 13:38:10,236 : INFO : test_e2end : Data verification successful for the 2nd and 3rd columns.
+=======
+>>>>>>> 5ba2ad54f3ee954d0cbd51cb94064013f6151cd4
