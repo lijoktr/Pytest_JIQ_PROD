@@ -253,10 +253,10 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 06-Aug-2023 at 14:15:58 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <p>Report generated on 22-Aug-2023 at 13:38:10 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
     <h2>Summary</h2>
-    <p>2 tests ran in 328.72 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">2 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>1 tests ran in 183.41 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -267,21 +267,85 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="failed results-table-row">
+      <tbody class="passed results-table-row">
         <tr>
-          <td class="col-result">Failed</td>
+          <td class="col-result">Passed</td>
           <td class="col-name">test/test_e2e.py::Testing::test_e2end[getdata0]</td>
-          <td class="col-duration">164.60</td>
+          <td class="col-duration">182.88</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">self = &lt;test.test_e2e.Testing object at 0x0000022A7388E9D0&gt;, getdata = {&#x27;passwd&#x27;: &#x27;Lijo@cardiff2&#x27;, &#x27;uname&#x27;: &#x27;Lijo.mathew+129@careerswales.gov.wales&#x27;}<br/><br/>    def test_e2end(self, getdata):<br/>    <br/>        log = self.getloggr()<br/>    <br/>        landing = lp(self.driver)<br/>    <br/>&gt;       landing.signin_wait()<br/><br/>test\test_e2e.py:42: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/>pageobjects\Landingpage.py:21: in signin_wait<br/>    Wait = WebDriverWait(self.driver, 160).until(<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;selenium.webdriver.support.wait.WebDriverWait (session=&quot;3be718cf437d6582e777b1308aaf998c&quot;)&gt;, method = &lt;function visibility_of_element_located.&lt;locals&gt;._predicate at 0x0000022A739C71F0&gt;, message = &#x27;&#x27;<br/><br/>    def until(self, method, message: str = &quot;&quot;):<br/>        &quot;&quot;&quot;Calls the method provided with the driver as an argument until the \<br/>        return value does not evaluate to ``False``.<br/>    <br/>        :param method: callable(WebDriver)<br/>        :param message: optional message for :exc:`TimeoutException`<br/>        :returns: the result of the last call to `method`<br/>        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs<br/>        &quot;&quot;&quot;<br/>        screen = None<br/>        stacktrace = None<br/>    <br/>        end_time = time.monotonic() + self._timeout<br/>        while True:<br/>            try:<br/>                value = method(self._driver)<br/>                if value:<br/>                    return value<br/>            except self._ignored_exceptions as exc:<br/>                screen = getattr(exc, &quot;screen&quot;, None)<br/>                stacktrace = getattr(exc, &quot;stacktrace&quot;, None)<br/>            time.sleep(self._poll)<br/>            if time.monotonic() &gt; end_time:<br/>                break<br/>&gt;       raise TimeoutException(message, screen, stacktrace)<br/><span class="error">E       selenium.common.exceptions.TimeoutException: Message: </span><br/><span class="error">E       Stacktrace:</span><br/><span class="error">E       Backtrace:</span><br/><span class="error">E       	GetHandleVerifier [0x0114A813+48355]</span><br/><span class="error">E       	(No symbol) [0x010DC4B1]</span><br/><span class="error">E       	(No symbol) [0x00FE5358]</span><br/><span class="error">E       	(No symbol) [0x010109A5]</span><br/><span class="error">E       	(No symbol) [0x01010B3B]</span><br/><span class="error">E       	(No symbol) [0x0103E232]</span><br/><span class="error">E       	(No symbol) [0x0102A784]</span><br/><span class="error">E       	(No symbol) [0x0103C922]</span><br/><span class="error">E       	(No symbol) [0x0102A536]</span><br/><span class="error">E       	(No symbol) [0x010082DC]</span><br/><span class="error">E       	(No symbol) [0x010093DD]</span><br/><span class="error">E       	GetHandleVerifier [0x013AAABD+2539405]</span><br/><span class="error">E       	GetHandleVerifier [0x013EA78F+2800735]</span><br/><span class="error">E       	GetHandleVerifier [0x013E456C+2775612]</span><br/><span class="error">E       	GetHandleVerifier [0x011D51E0+616112]</span><br/><span class="error">E       	(No symbol) [0x010E5F8C]</span><br/><span class="error">E       	(No symbol) [0x010E2328]</span><br/><span class="error">E       	(No symbol) [0x010E240B]</span><br/><span class="error">E       	(No symbol) [0x010D4FF7]</span><br/><span class="error">E       	BaseThreadInitThunk [0x759100C9+25]</span><br/><span class="error">E       	RtlGetAppContainerNamedObjectPath [0x77977B1E+286]</span><br/><span class="error">E       	RtlGetAppContainerNamedObjectPath [0x77977AEE+238]</span><br/><br/>..\Pytest_Jobideasquiz_sysint\venv\lib\site-packages\selenium\webdriver\support\wait.py:95: TimeoutException<br/></div></td></tr></tbody>
-      <tbody class="failed results-table-row">
-        <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">test/test_sysint_dummy.py::Testing::test_sysint[getdata0]</td>
-          <td class="col-duration">163.32</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log">self = &lt;test.test_sysint_dummy.Testing object at 0x0000022A7388ECD0&gt;, getdata = {&#x27;passwd&#x27;: &#x27;Lijo@cardiff2&#x27;, &#x27;uname&#x27;: &#x27;Lijo.mathew+129@careerswales.gov.wales&#x27;}<br/><br/>    def test_sysint(self, getdata):<br/>    <br/>        log = self.getloggr()<br/>    <br/>        landing = lp(self.driver)<br/>    <br/>&gt;       landing.signin_wait()<br/><br/>test\test_sysint_dummy.py:21: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/>pageobjects\Landingpage.py:21: in signin_wait<br/>    Wait = WebDriverWait(self.driver, 160).until(<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;selenium.webdriver.support.wait.WebDriverWait (session=&quot;cc43ba75efabe7b10a1708a425658f59&quot;)&gt;, method = &lt;function visibility_of_element_located.&lt;locals&gt;._predicate at 0x0000022A739C7EE0&gt;, message = &#x27;&#x27;<br/><br/>    def until(self, method, message: str = &quot;&quot;):<br/>        &quot;&quot;&quot;Calls the method provided with the driver as an argument until the \<br/>        return value does not evaluate to ``False``.<br/>    <br/>        :param method: callable(WebDriver)<br/>        :param message: optional message for :exc:`TimeoutException`<br/>        :returns: the result of the last call to `method`<br/>        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs<br/>        &quot;&quot;&quot;<br/>        screen = None<br/>        stacktrace = None<br/>    <br/>        end_time = time.monotonic() + self._timeout<br/>        while True:<br/>            try:<br/>                value = method(self._driver)<br/>                if value:<br/>                    return value<br/>            except self._ignored_exceptions as exc:<br/>                screen = getattr(exc, &quot;screen&quot;, None)<br/>                stacktrace = getattr(exc, &quot;stacktrace&quot;, None)<br/>            time.sleep(self._poll)<br/>            if time.monotonic() &gt; end_time:<br/>                break<br/>&gt;       raise TimeoutException(message, screen, stacktrace)<br/><span class="error">E       selenium.common.exceptions.TimeoutException: Message: </span><br/><span class="error">E       Stacktrace:</span><br/><span class="error">E       Backtrace:</span><br/><span class="error">E       	GetHandleVerifier [0x0114A813+48355]</span><br/><span class="error">E       	(No symbol) [0x010DC4B1]</span><br/><span class="error">E       	(No symbol) [0x00FE5358]</span><br/><span class="error">E       	(No symbol) [0x010109A5]</span><br/><span class="error">E       	(No symbol) [0x01010B3B]</span><br/><span class="error">E       	(No symbol) [0x0103E232]</span><br/><span class="error">E       	(No symbol) [0x0102A784]</span><br/><span class="error">E       	(No symbol) [0x0103C922]</span><br/><span class="error">E       	(No symbol) [0x0102A536]</span><br/><span class="error">E       	(No symbol) [0x010082DC]</span><br/><span class="error">E       	(No symbol) [0x010093DD]</span><br/><span class="error">E       	GetHandleVerifier [0x013AAABD+2539405]</span><br/><span class="error">E       	GetHandleVerifier [0x013EA78F+2800735]</span><br/><span class="error">E       	GetHandleVerifier [0x013E456C+2775612]</span><br/><span class="error">E       	GetHandleVerifier [0x011D51E0+616112]</span><br/><span class="error">E       	(No symbol) [0x010E5F8C]</span><br/><span class="error">E       	(No symbol) [0x010E2328]</span><br/><span class="error">E       	(No symbol) [0x010E240B]</span><br/><span class="error">E       	(No symbol) [0x010D4FF7]</span><br/><span class="error">E       	BaseThreadInitThunk [0x759100C9+25]</span><br/><span class="error">E       	RtlGetAppContainerNamedObjectPath [0x77977B1E+286]</span><br/><span class="error">E       	RtlGetAppContainerNamedObjectPath [0x77977AEE+238]</span><br/><br/>..\Pytest_Jobideasquiz_sysint\venv\lib\site-packages\selenium\webdriver\support\wait.py:95: TimeoutException<br/></div></td></tr></tbody></table></body></html>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_e2end:test_e2e.py:53 username entered
+INFO     test_e2end:test_e2e.py:57 Passwd entered
+INFO     test_e2end:test_e2e.py:61 submit
+INFO     test_e2end:test_e2e.py:67 take new quiz
+INFO     test_e2end:test_e2e.py:143 Page 1 saved
+INFO     test_e2end:test_e2e.py:161 Page 2 saved
+INFO     test_e2end:test_e2e.py:173 Page 3 saved
+INFO     test_e2end:test_e2e.py:191 Page 4 saved
+INFO     test_e2end:test_e2e.py:209 Page 5 saved
+INFO     test_e2end:test_e2e.py:223 Page 6 saved
+INFO     test_e2end:test_e2e.py:241 Page 7 saved
+INFO     test_e2end:test_e2e.py:259 Page 8 saved
+INFO     test_e2end:test_e2e.py:277 Page 9 saved
+INFO     test_e2end:test_e2e.py:285 You have saved your quiz answers
+INFO     test_e2end:test_e2e.py:295 Quiz submitted
+INFO     test_e2end:test_e2e.py:302 retake_wait
+INFO     test_e2end:test_e2e.py:304 take_quiz_again
+INFO     test_e2end:test_e2e.py:143 Page 1 saved
+INFO     test_e2end:test_e2e.py:161 Page 2 saved
+INFO     test_e2end:test_e2e.py:173 Page 3 saved
+INFO     test_e2end:test_e2e.py:191 Page 4 saved
+INFO     test_e2end:test_e2e.py:209 Page 5 saved
+INFO     test_e2end:test_e2e.py:223 Page 6 saved
+INFO     test_e2end:test_e2e.py:241 Page 7 saved
+INFO     test_e2end:test_e2e.py:259 Page 8 saved
+INFO     test_e2end:test_e2e.py:277 Page 9 saved
+INFO     test_e2end:test_e2e.py:285 You have saved your quiz answers
+INFO     test_e2end:test_e2e.py:295 Quiz submitted
+INFO     test_e2end:test_e2e.py:302 retake_wait
+INFO     test_e2end:test_e2e.py:304 take_quiz_again
+INFO     test_e2end:test_e2e.py:143 Page 1 saved
+INFO     test_e2end:test_e2e.py:161 Page 2 saved
+INFO     test_e2end:test_e2e.py:173 Page 3 saved
+INFO     test_e2end:test_e2e.py:191 Page 4 saved
+INFO     test_e2end:test_e2e.py:209 Page 5 saved
+INFO     test_e2end:test_e2e.py:223 Page 6 saved
+INFO     test_e2end:test_e2e.py:241 Page 7 saved
+INFO     test_e2end:test_e2e.py:259 Page 8 saved
+INFO     test_e2end:test_e2e.py:277 Page 9 saved
+INFO     test_e2end:test_e2e.py:285 You have saved your quiz answers
+INFO     test_e2end:test_e2e.py:295 Quiz submitted
+INFO     test_e2end:test_e2e.py:302 retake_wait
+INFO     test_e2end:test_e2e.py:304 take_quiz_again
+INFO     test_e2end:test_e2e.py:143 Page 1 saved
+INFO     test_e2end:test_e2e.py:161 Page 2 saved
+INFO     test_e2end:test_e2e.py:173 Page 3 saved
+INFO     test_e2end:test_e2e.py:191 Page 4 saved
+INFO     test_e2end:test_e2e.py:209 Page 5 saved
+INFO     test_e2end:test_e2e.py:223 Page 6 saved
+INFO     test_e2end:test_e2e.py:241 Page 7 saved
+INFO     test_e2end:test_e2e.py:259 Page 8 saved
+INFO     test_e2end:test_e2e.py:277 Page 9 saved
+INFO     test_e2end:test_e2e.py:285 You have saved your quiz answers
+INFO     test_e2end:test_e2e.py:295 Quiz submitted
+INFO     test_e2end:test_e2e.py:302 retake_wait
+INFO     test_e2end:test_e2e.py:304 take_quiz_again
+INFO     test_e2end:test_e2e.py:143 Page 1 saved
+INFO     test_e2end:test_e2e.py:161 Page 2 saved
+INFO     test_e2end:test_e2e.py:173 Page 3 saved
+INFO     test_e2end:test_e2e.py:191 Page 4 saved
+INFO     test_e2end:test_e2e.py:209 Page 5 saved
+INFO     test_e2end:test_e2e.py:223 Page 6 saved
+INFO     test_e2end:test_e2e.py:241 Page 7 saved
+INFO     test_e2end:test_e2e.py:259 Page 8 saved
+INFO     test_e2end:test_e2e.py:277 Page 9 saved
+INFO     test_e2end:test_e2e.py:285 You have saved your quiz answers
+INFO     test_e2end:test_e2e.py:295 Quiz submitted
+INFO     test_e2end:test_e2e.py:302 retake_wait
+INFO     test_e2end:test_e2e.py:308 max limit(5) of taking quiz reached.
+INFO     test_e2end:test_e2e.py:313 table located
+INFO     test_e2end:test_e2e.py:320 Loop through each row and extract the data from the 3rd and 4th column
+INFO     test_e2end:test_e2e.py:339 [&#x27;Plumber&#x27;, &#x27;Sports Coach&#x27;, &#x27;Animal Attendant&#x27;, &#x27;Plasterer&#x27;, &#x27;Veterinary Nurse&#x27;, &#x27;Nurse&#x27;, &#x27;Bricklayer&#x27;, &#x27;Factory Worker&#x27;, &#x27;Electrician&#x27;, &#x27;Painter and Decorator&#x27;]
+INFO     test_e2end:test_e2e.py:340 [&#x27;85%&#x27;, &#x27;83%&#x27;, &#x27;82%&#x27;, &#x27;80%&#x27;, &#x27;80%&#x27;, &#x27;75%&#x27;, &#x27;74%&#x27;, &#x27;74%&#x27;, &#x27;70%&#x27;, &#x27;70%&#x27;]
+INFO     test_e2end:test_e2e.py:344 Data verification successful for the 2nd and 3rd columns.<br/></div></td></tr></tbody></table></body></html>

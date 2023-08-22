@@ -12,29 +12,29 @@ class ci1:
     def __init__(self, driver):
         self.driver = driver
 
-    q1 = (By.XPATH, "//*[contains(@id,'21f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/div/label/span[1]/span")
+    q1 = (By.XPATH, "//*[contains(@id,'21f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
 
-    q2 = (By.XPATH, "//*[contains(@id,'31f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/div/label/span[1]/span")
+    q2 = (By.XPATH, "//*[contains(@id,'31f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
 
-    q3 = (By.XPATH, "//*[contains(@id,'34f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/div/label/span[1]/span")
+    q3 = (By.XPATH, "//*[contains(@id,'34f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[2]/span/label/span[1]/span")
 
-    q4 = (By.XPATH, "//*[contains(@id,'3cf9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/div/label/span[1]/span")
+    q4 = (By.XPATH, "//*[contains(@id,'3cf9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
 
-    q5 = (By.XPATH, "//*[contains(@id,'3ff9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/div/label/span[1]/span")
+    q5 = (By.XPATH, "//*[contains(@id,'3ff9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
 
-    q6 = (By.XPATH, "//*[contains(@id,'4af9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/div/label/span[1]/span")
+    q6 = (By.XPATH, "//*[contains(@id,'4af9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[1]/span/label/span[1]/span")
 
-    q7 = (By.XPATH, "//*[contains(@id,'50f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[1]/div/label/span[1]/span")
+    q7 = (By.XPATH, "//*[contains(@id,'50f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[1]/span/label/span[1]/span")
 
-    q8 = (By.XPATH, "//*[contains(@id,'54f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[1]/div/label/span[1]/span")
+    q8 = (By.XPATH, "//*[contains(@id,'54f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[1]/span/label/span[1]/span")
 
-    q9 = (By.XPATH, "//*[contains(@id,'55f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[1]/div/label/span[1]/span")
+    q9 = (By.XPATH, "//*[contains(@id,'55f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[1]/span/label/span[1]/span")
 
-    q10 = (By.XPATH, "//*[contains(@id,'56f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/div/label/span[1]/span")
+    q10 = (By.XPATH, "//*[contains(@id,'56f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
 
-    q11 = (By.XPATH, "//*[contains(@id,'59f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[2]/div/label/span[1]/span")
+    q11 = (By.XPATH, "//*[contains(@id,'59f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[2]/span/label/span[1]/span")
 
-    q12 = (By.XPATH, "//*[contains(@id,'5af9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/div/label/span[1]/span")
+    q12 = (By.XPATH, "//*[contains(@id,'5af9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
 
     # next = (By.XPATH, "//*[contains(@title,'Link to next')]")
 
@@ -44,23 +44,23 @@ class ci1:
 
     def quest1(self):
         return self.driver.find_element(*ci1.q1)
-        # self.driver.find_element(By.XPATH, "//*[contains(@id,'33bd84a0-edd2-ed11-a7c7-0022481b53e3')]/div/div[3]/div/label/span[1]/span").click()
+        # self.driver.find_element(By.XPATH, "//*[contains(@id,'33bd84a0-edd2-ed11-a7c7-0022481b53e3')]/div/div[3]/span/label/span[1]/span").click()
 
     def quest2(self):
         return self.driver.find_element(*ci1.q2)
-        # self.driver.find_element(By.XPATH, "//*[contains(@id,'39bd84a0-edd2-ed11-a7c7-0022481b53e3')]/div/div[2]/div/label/span[1]/span").click()
+        # self.driver.find_element(By.XPATH, "//*[contains(@id,'39bd84a0-edd2-ed11-a7c7-0022481b53e3')]/div/div[2]/span/label/span[1]/span").click()
 
     def quest3(self):
         return self.driver.find_element(*ci1.q3)
-        # self.driver.find_element(By.XPATH, "//*[contains(@id,'3bbd84a0-edd2-ed11-a7c7-0022481b53e3')]/div/div[2]/div/label/span[1]/span").click()
+        # self.driver.find_element(By.XPATH, "//*[contains(@id,'3bbd84a0-edd2-ed11-a7c7-0022481b53e3')]/div/div[2]/span/label/span[1]/span").click()
 
     def quest4(self):
         return self.driver.find_element(*ci1.q4)
-        # self.driver.find_element(By.XPATH, "//*[contains(@id,'42bd84a0-edd2-ed11-a7c7-0022481b53e3')]/div/div[1]/div/label/span[1]/span").click()
+        # self.driver.find_element(By.XPATH, "//*[contains(@id,'42bd84a0-edd2-ed11-a7c7-0022481b53e3')]/div/div[1]/span/label/span[1]/span").click()
 
     def quest5(self):
         return self.driver.find_element(*ci1.q5)
-        # self.driver.find_element(By.XPATH, "//*[contains(@id,'44bd84a0-edd2-ed11-a7c7-0022481b53e3')]/div/div[1]/div/label/span[1]/span").click()
+        # self.driver.find_element(By.XPATH, "//*[contains(@id,'44bd84a0-edd2-ed11-a7c7-0022481b53e3')]/div/div[1]/span/label/span[1]/span").click()
 
     def q6_wait(self):
         Wait = WebDriverWait(self.driver, 10).until(
@@ -68,7 +68,7 @@ class ci1:
 
     def quest6(self):
         return self.driver.find_element(*ci1.q6)
-        # self.driver.find_element_by_xpath("//*[contains(@id,'4bbd84a0-edd2-ed11-a7c7-0022481b53e3')]/div/div[2]/div/label/span[1]/span").click()
+        # self.driver.find_element_by_xpath("//*[contains(@id,'4bbd84a0-edd2-ed11-a7c7-0022481b53e3')]/div/div[2]/span/label/span[1]/span").click()
 
     def quest7(self):
         return self.driver.find_element(*ci1.q7)

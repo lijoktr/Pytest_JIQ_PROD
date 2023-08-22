@@ -1,27 +1,38 @@
-
 import pytest
 from selenium import webdriver
-#from selenium.webdriver.chrome import webdriver
+
+from selenium.webdriver.chrome.service import Service
+
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+
+from webdriver_manager.chrome import ChromeDriverManager
+
 driver = None
+service = Service(ChromeDriverManager().install())
+
 
 def pytest_addoption(parser):
     parser.addoption(
         "--browser_name", action="store", default="chrome"
     )
 
+
 @pytest.fixture(scope="class")
 def setup(request):
     global driver
     browser_name = request.config.getoption("browser_name")
+
     if browser_name == "chrome":
-        driver = webdriver.Chrome()
+        driver = webdriver.Chrome(service=service)
     elif browser_name == "edge":
-        driver = webdriver.Edge()
+        driver = webdriver.Edge(service=service)
     driver.get("https://uat.careerswales.gov.wales/job-ideas-quiz")
     driver.maximize_window()
-    request.cls.driver = driver   #instead of return driver
+    request.cls.driver = driver  # instead of return driver
     yield
-    driver.close()   #executing last
+    driver.close()  # executing last
+
 
 """
 
