@@ -2567,3 +2567,6 @@
 2023-08-25 16:17:02,111 : INFO : test_e2end : ['Plumber', 'Sports Coach', 'Animal Attendant', 'Plasterer', 'Veterinary Nurse', 'Nurse', 'Bricklayer', 'Factory Worker', 'Electrician', 'Painter and Decorator']
 2023-08-25 16:17:02,111 : INFO : test_e2end : ['85%', '83%', '82%', '80%', '80%', '75%', '74%', '74%', '70%', '70%']
 2023-08-25 16:17:02,111 : INFO : test_e2end : Data verification successful for the 2nd and 3rd columns.
+2023-08-25 16:50:01,468 : INFO : test_e2end : username entered
+2023-08-25 16:50:01,646 : INFO : test_e2end : Passwd entered
+2023-08-25 16:50:01,783 : INFO : test_e2end : submit

@@ -37,9 +37,13 @@ def setup(request):
     browser_name = request.config.getoption("browser_name")
 
     if browser_name == "chrome":
-        driver = webdriver.Chrome(options=chrome_options)
+        driver = webdriver.Chrome()
+        # headless
+        # driver = webdriver.Chrome(options=chrome_options)
     elif browser_name == "edge":
-        driver = webdriver.Edge(options=options)
+        driver = webdriver.Edge()
+        # headless
+        # driver = webdriver.Edge(options=options)
     driver.get("https://careerswales.gov.wales/job-ideas-quiz")
 
     driver.maximize_window()
