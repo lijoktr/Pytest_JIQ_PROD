@@ -9,31 +9,31 @@ class jt5:
     def __init__(self, driver):
         self.driver = driver
 
-    jt_q1 = (By.XPATH, "//*[contains(@id,'33f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
+    jt_q1 = (By.XPATH, "//*[contains(@id,'ddecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[3]/span/label/span[1]/span")
 
-    jt_q2 = (By.XPATH, "//*[contains(@id,'36f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[1]/span/label/span[1]/span")
+    jt_q2 = (By.XPATH, "//*[contains(@id,'e0ecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[1]/span/label/span[1]/span")
 
-    jt_q3 = (By.XPATH, "//*[contains(@id,'37f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
+    jt_q3 = (By.XPATH, "//*[contains(@id,'e1ecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[3]/span/label/span[1]/span")
 
-    jt_q4 = (By.XPATH, "//*[contains(@id,'3ef9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
+    jt_q4 = (By.XPATH, "//*[contains(@id,'e6ecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[3]/span/label/span[1]/span")
 
-    jt_q5 = (By.XPATH, "//*[contains(@id,'45f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[1]/span/label/span[1]/span")
+    jt_q5 = (By.XPATH, "//*[contains(@id,'ececb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[1]/span/label/span[1]/span")
 
-    jt_q6 = (By.XPATH, "//*[contains(@id,'48f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
+    jt_q6 = (By.XPATH, "//*[contains(@id,'edecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[3]/span/label/span[1]/span")
 
-    jt_q7 = (By.XPATH, "//*[contains(@id,'4ff9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
+    jt_q7 = (By.XPATH, "//*[contains(@id,'f0ecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[3]/span/label/span[1]/span")
 
-    jt_q8 = (By.XPATH, "//*[contains(@id,'51f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
+    jt_q8 = (By.XPATH, "//*[contains(@id,'f2ecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[3]/span/label/span[1]/span")
 
-    jt_q9 = (By.XPATH, "//*[contains(@id,'52f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[2]/span/label/span[1]/span")
+    jt_q9 = (By.XPATH, "//*[contains(@id,'f3ecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[2]/span/label/span[1]/span")
 
-    jt_q10 = (By.XPATH, "//*[contains(@id,'53f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[1]/span/label/span[1]/span")
+    jt_q10 = (By.XPATH, "//*[contains(@id,'f4ecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[1]/span/label/span[1]/span")
 
-    jt_q11 = (By.XPATH, "//*[contains(@id,'5df9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
+    jt_q11 = (By.XPATH, "//*[contains(@id,'feecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[3]/span/label/span[1]/span")
 
-    jt_q12 = (By.XPATH, "//*[contains(@id,'5ef9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
+    jt_q12 = (By.XPATH, "//*[contains(@id,'00edb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[3]/span/label/span[1]/span")
 
-    jt_q13 = (By.XPATH, "//*[contains(@id,'60f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
+    jt_q13 = (By.XPATH, "//*[contains(@id,'01edb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[3]/span/label/span[1]/span")
 
     def jt_q1_wait(self):
         Wait = WebDriverWait(self.driver, 10).until(

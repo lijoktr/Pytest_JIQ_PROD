@@ -2008,3 +2008,562 @@
 2023-08-22 13:38:10,236 : INFO : test_e2end : Data verification successful for the 2nd and 3rd columns.
 =======
 >>>>>>> 5ba2ad54f3ee954d0cbd51cb94064013f6151cd4
+2023-08-23 13:02:04,939 : INFO : test_e2end : username entered
+2023-08-23 13:02:05,119 : INFO : test_e2end : Passwd entered
+2023-08-23 13:02:05,274 : INFO : test_e2end : submit
+2023-08-23 16:17:32,117 : INFO : test_e2end : username entered
+2023-08-23 16:17:32,256 : INFO : test_e2end : Passwd entered
+2023-08-23 16:17:32,389 : INFO : test_e2end : submit
+2023-08-23 16:17:36,923 : INFO : test_e2end : take new quiz
+2023-08-23 16:21:25,783 : INFO : test_e2end : username entered
+2023-08-23 16:21:25,931 : INFO : test_e2end : Passwd entered
+2023-08-23 16:21:26,048 : INFO : test_e2end : submit
+2023-08-23 16:21:29,769 : INFO : test_e2end : take new quiz
+2023-08-23 16:21:30,520 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:21:33,737 : INFO : test_e2end : Page 2 saved
+2023-08-23 16:21:35,295 : INFO : test_e2end : Page 3 saved
+2023-08-23 16:21:36,790 : INFO : test_e2end : Page 4 saved
+2023-08-23 16:21:38,922 : INFO : test_e2end : Page 5 saved
+2023-08-23 16:21:40,536 : INFO : test_e2end : Page 6 saved
+2023-08-23 16:21:42,679 : INFO : test_e2end : Page 7 saved
+2023-08-23 16:21:44,827 : INFO : test_e2end : Page 8 saved
+2023-08-23 16:21:46,916 : INFO : test_e2end : Page 9 saved
+2023-08-23 16:21:48,103 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 16:21:48,534 : INFO : test_e2end : Quiz submitted
+2023-08-23 16:21:48,535 : INFO : test_e2end : retake_wait
+2023-08-23 16:21:52,889 : INFO : test_e2end : take_quiz_again
+2023-08-23 16:21:54,639 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:21:57,802 : INFO : test_e2end : Page 2 saved
+2023-08-23 16:21:59,404 : INFO : test_e2end : Page 3 saved
+2023-08-23 16:22:00,994 : INFO : test_e2end : Page 4 saved
+2023-08-23 16:22:03,086 : INFO : test_e2end : Page 5 saved
+2023-08-23 16:22:04,905 : INFO : test_e2end : Page 6 saved
+2023-08-23 16:22:06,967 : INFO : test_e2end : Page 7 saved
+2023-08-23 16:22:09,083 : INFO : test_e2end : Page 8 saved
+2023-08-23 16:22:11,213 : INFO : test_e2end : Page 9 saved
+2023-08-23 16:22:12,886 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 16:22:13,351 : INFO : test_e2end : Quiz submitted
+2023-08-23 16:22:13,351 : INFO : test_e2end : retake_wait
+2023-08-23 16:22:17,653 : INFO : test_e2end : take_quiz_again
+2023-08-23 16:22:19,329 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:26:54,284 : INFO : test_e2end : username entered
+2023-08-23 16:26:54,395 : INFO : test_e2end : Passwd entered
+2023-08-23 16:26:54,569 : INFO : test_e2end : submit
+2023-08-23 16:26:58,081 : INFO : test_e2end : take new quiz
+2023-08-23 16:26:59,049 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:27:01,291 : INFO : test_e2end : Page 2 saved
+2023-08-23 16:27:02,394 : INFO : test_e2end : Page 3 saved
+2023-08-23 16:27:04,102 : INFO : test_e2end : Page 4 saved
+2023-08-23 16:27:05,791 : INFO : test_e2end : Page 5 saved
+2023-08-23 16:27:07,167 : INFO : test_e2end : Page 6 saved
+2023-08-23 16:27:09,386 : INFO : test_e2end : Page 7 saved
+2023-08-23 16:27:11,125 : INFO : test_e2end : Page 8 saved
+2023-08-23 16:27:13,355 : INFO : test_e2end : Page 9 saved
+2023-08-23 16:27:14,056 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 16:27:14,558 : INFO : test_e2end : Quiz submitted
+2023-08-23 16:27:14,558 : INFO : test_e2end : retake_wait
+2023-08-23 16:27:18,887 : INFO : test_e2end : take_quiz_again
+2023-08-23 16:27:20,721 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:27:22,871 : INFO : test_e2end : Page 2 saved
+2023-08-23 16:27:23,945 : INFO : test_e2end : Page 3 saved
+2023-08-23 16:27:25,572 : INFO : test_e2end : Page 4 saved
+2023-08-23 16:27:27,267 : INFO : test_e2end : Page 5 saved
+2023-08-23 16:27:28,492 : INFO : test_e2end : Page 6 saved
+2023-08-23 16:27:30,286 : INFO : test_e2end : Page 7 saved
+2023-08-23 16:27:31,939 : INFO : test_e2end : Page 8 saved
+2023-08-23 16:27:33,575 : INFO : test_e2end : Page 9 saved
+2023-08-23 16:27:34,762 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 16:27:35,244 : INFO : test_e2end : Quiz submitted
+2023-08-23 16:27:35,245 : INFO : test_e2end : retake_wait
+2023-08-23 16:27:40,113 : INFO : test_e2end : take_quiz_again
+2023-08-23 16:27:41,819 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:30:40,869 : INFO : test_e2end : username entered
+2023-08-23 16:30:40,959 : INFO : test_e2end : Passwd entered
+2023-08-23 16:30:41,087 : INFO : test_e2end : submit
+2023-08-23 16:30:46,957 : INFO : test_e2end : take new quiz
+2023-08-23 16:30:47,802 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:30:50,105 : INFO : test_e2end : Page 2 saved
+2023-08-23 16:30:51,689 : INFO : test_e2end : Page 3 saved
+2023-08-23 16:30:53,861 : INFO : test_e2end : Page 4 saved
+2023-08-23 16:30:55,649 : INFO : test_e2end : Page 5 saved
+2023-08-23 16:30:56,736 : INFO : test_e2end : Page 6 saved
+2023-08-23 16:30:58,110 : INFO : test_e2end : Page 7 saved
+2023-08-23 16:30:59,888 : INFO : test_e2end : Page 8 saved
+2023-08-23 16:31:01,156 : INFO : test_e2end : Page 9 saved
+2023-08-23 16:31:02,312 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 16:31:02,637 : INFO : test_e2end : Quiz submitted
+2023-08-23 16:31:02,638 : INFO : test_e2end : retake_wait
+2023-08-23 16:31:06,957 : INFO : test_e2end : take_quiz_again
+2023-08-23 16:31:08,689 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:31:11,377 : INFO : test_e2end : Page 2 saved
+2023-08-23 16:31:12,956 : INFO : test_e2end : Page 3 saved
+2023-08-23 16:31:14,644 : INFO : test_e2end : Page 4 saved
+2023-08-23 16:31:16,804 : INFO : test_e2end : Page 5 saved
+2023-08-23 16:31:18,543 : INFO : test_e2end : Page 6 saved
+2023-08-23 16:31:19,701 : INFO : test_e2end : Page 7 saved
+2023-08-23 16:31:21,268 : INFO : test_e2end : Page 8 saved
+2023-08-23 16:31:22,903 : INFO : test_e2end : Page 9 saved
+2023-08-23 16:31:23,551 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 16:31:24,108 : INFO : test_e2end : Quiz submitted
+2023-08-23 16:31:24,108 : INFO : test_e2end : retake_wait
+2023-08-23 16:31:28,482 : INFO : test_e2end : take_quiz_again
+2023-08-23 16:31:30,352 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:31:33,575 : INFO : test_e2end : Page 2 saved
+2023-08-23 16:31:40,103 : INFO : test_e2end : Page 3 saved
+2023-08-23 16:31:42,135 : INFO : test_e2end : Page 4 saved
+2023-08-23 16:31:44,307 : INFO : test_e2end : Page 5 saved
+2023-08-23 16:31:46,042 : INFO : test_e2end : Page 6 saved
+2023-08-23 16:31:47,961 : INFO : test_e2end : Page 7 saved
+2023-08-23 16:31:50,058 : INFO : test_e2end : Page 8 saved
+2023-08-23 16:31:52,184 : INFO : test_e2end : Page 9 saved
+2023-08-23 16:31:52,872 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 16:31:53,439 : INFO : test_e2end : Quiz submitted
+2023-08-23 16:31:53,439 : INFO : test_e2end : retake_wait
+2023-08-23 16:31:58,283 : INFO : test_e2end : take_quiz_again
+2023-08-23 16:43:47,980 : INFO : test_e2end : username entered
+2023-08-23 16:43:48,087 : INFO : test_e2end : Passwd entered
+2023-08-23 16:43:48,302 : INFO : test_e2end : submit
+2023-08-23 16:43:52,724 : INFO : test_e2end : take new quiz
+2023-08-23 16:43:53,371 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:43:56,575 : INFO : test_e2end : Page 2 saved
+2023-08-23 16:43:57,761 : INFO : test_e2end : Page 3 saved
+2023-08-23 16:43:59,313 : INFO : test_e2end : Page 4 saved
+2023-08-23 16:44:01,455 : INFO : test_e2end : Page 5 saved
+2023-08-23 16:44:03,285 : INFO : test_e2end : Page 6 saved
+2023-08-23 16:44:05,035 : INFO : test_e2end : Page 7 saved
+2023-08-23 16:44:06,778 : INFO : test_e2end : Page 8 saved
+2023-08-23 16:44:08,913 : INFO : test_e2end : Page 9 saved
+2023-08-23 16:44:10,099 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 16:44:10,646 : INFO : test_e2end : Quiz submitted
+2023-08-23 16:44:10,646 : INFO : test_e2end : retake_wait
+2023-08-23 16:44:14,473 : INFO : test_e2end : take_quiz_again
+2023-08-23 16:44:15,785 : INFO : test_e2end : max limit(5) of taking quiz reached.
+2023-08-23 16:44:15,814 : INFO : test_e2end : table located
+2023-08-23 16:44:15,844 : INFO : test_e2end : Loop through each row and extract the data from the 3rd and 4th column
+2023-08-23 16:44:16,486 : INFO : test_e2end : ['Roofer', 'Electrician', 'Plasterer', 'Plumber', 'Bricklayer', 'Carpenter', 'Painter and Decorator', 'Firefighter', 'Labourer', 'Soldier in the Army']
+2023-08-23 16:44:16,486 : INFO : test_e2end : ['95%', '93%', '91%', '91%', '88%', '88%', '88%', '87%', '87%', '86%']
+2023-08-23 16:44:16,486 : INFO : test_e2end : Data verification failed for the 2nd and 3rd columns.
+2023-08-23 16:45:06,186 : INFO : test_e2end : username entered
+2023-08-23 16:45:06,279 : INFO : test_e2end : Passwd entered
+2023-08-23 16:45:06,385 : INFO : test_e2end : submit
+2023-08-23 16:45:10,125 : INFO : test_e2end : take new quiz
+2023-08-23 16:45:10,957 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:45:13,770 : INFO : test_e2end : Page 2 saved
+2023-08-23 16:45:15,341 : INFO : test_e2end : Page 3 saved
+2023-08-23 16:45:16,890 : INFO : test_e2end : Page 4 saved
+2023-08-23 16:45:18,641 : INFO : test_e2end : Page 5 saved
+2023-08-23 16:45:20,423 : INFO : test_e2end : Page 6 saved
+2023-08-23 16:45:22,559 : INFO : test_e2end : Page 7 saved
+2023-08-23 16:45:24,751 : INFO : test_e2end : Page 8 saved
+2023-08-23 16:45:26,605 : INFO : test_e2end : Page 9 saved
+2023-08-23 16:45:27,765 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 16:45:28,244 : INFO : test_e2end : Quiz submitted
+2023-08-23 16:45:28,244 : INFO : test_e2end : retake_wait
+2023-08-23 16:45:33,077 : INFO : test_e2end : take_quiz_again
+2023-08-23 16:45:34,773 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:45:37,418 : INFO : test_e2end : Page 2 saved
+2023-08-23 16:45:38,474 : INFO : test_e2end : Page 3 saved
+2023-08-23 16:45:39,938 : INFO : test_e2end : Page 4 saved
+2023-08-23 16:45:41,477 : INFO : test_e2end : Page 5 saved
+2023-08-23 16:45:43,212 : INFO : test_e2end : Page 6 saved
+2023-08-23 16:45:44,702 : INFO : test_e2end : Page 7 saved
+2023-08-23 16:45:46,679 : INFO : test_e2end : Page 8 saved
+2023-08-23 16:45:48,096 : INFO : test_e2end : Page 9 saved
+2023-08-23 16:45:49,256 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 16:45:49,720 : INFO : test_e2end : Quiz submitted
+2023-08-23 16:45:49,720 : INFO : test_e2end : retake_wait
+2023-08-23 16:45:53,562 : INFO : test_e2end : take_quiz_again
+2023-08-23 16:45:55,194 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:45:58,330 : INFO : test_e2end : Page 2 saved
+2023-08-23 16:45:59,272 : INFO : test_e2end : Page 3 saved
+2023-08-23 16:46:00,410 : INFO : test_e2end : Page 4 saved
+2023-08-23 16:46:02,306 : INFO : test_e2end : Page 5 saved
+2023-08-23 16:46:03,273 : INFO : test_e2end : Page 6 saved
+2023-08-23 16:46:04,441 : INFO : test_e2end : Page 7 saved
+2023-08-23 16:46:06,104 : INFO : test_e2end : Page 8 saved
+2023-08-23 16:46:07,290 : INFO : test_e2end : Page 9 saved
+2023-08-23 16:46:08,425 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 16:46:08,742 : INFO : test_e2end : Quiz submitted
+2023-08-23 16:46:08,743 : INFO : test_e2end : retake_wait
+2023-08-23 16:46:13,009 : INFO : test_e2end : take_quiz_again
+2023-08-23 16:46:14,293 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:46:17,153 : INFO : test_e2end : Page 2 saved
+2023-08-23 16:46:18,056 : INFO : test_e2end : Page 3 saved
+2023-08-23 16:46:19,291 : INFO : test_e2end : Page 4 saved
+2023-08-23 16:46:21,119 : INFO : test_e2end : Page 5 saved
+2023-08-23 16:46:22,627 : INFO : test_e2end : Page 6 saved
+2023-08-23 16:46:24,377 : INFO : test_e2end : Page 7 saved
+2023-08-23 16:46:25,937 : INFO : test_e2end : Page 8 saved
+2023-08-23 16:46:27,539 : INFO : test_e2end : Page 9 saved
+2023-08-23 16:46:28,681 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 16:46:29,044 : INFO : test_e2end : Quiz submitted
+2023-08-23 16:46:29,044 : INFO : test_e2end : retake_wait
+2023-08-23 16:46:34,857 : INFO : test_e2end : take_quiz_again
+2023-08-23 16:46:36,189 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:46:38,538 : INFO : test_e2end : Page 2 saved
+2023-08-23 16:46:39,536 : INFO : test_e2end : Page 3 saved
+2023-08-23 16:46:40,825 : INFO : test_e2end : Page 4 saved
+2023-08-23 16:46:42,161 : INFO : test_e2end : Page 5 saved
+2023-08-23 16:46:43,222 : INFO : test_e2end : Page 6 saved
+2023-08-23 16:46:44,553 : INFO : test_e2end : Page 7 saved
+2023-08-23 16:46:45,811 : INFO : test_e2end : Page 8 saved
+2023-08-23 16:46:47,688 : INFO : test_e2end : Page 9 saved
+2023-08-23 16:46:48,851 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 16:46:49,172 : INFO : test_e2end : Quiz submitted
+2023-08-23 16:46:49,172 : INFO : test_e2end : retake_wait
+2023-08-23 16:46:59,309 : INFO : test_e2end : max limit(5) of taking quiz reached.
+2023-08-23 16:46:59,340 : INFO : test_e2end : table located
+2023-08-23 16:46:59,376 : INFO : test_e2end : Loop through each row and extract the data from the 3rd and 4th column
+2023-08-23 16:47:00,097 : INFO : test_e2end : ['Plumber', 'Sports Coach', 'Animal Attendant', 'Plasterer', 'Veterinary Nurse', 'Nurse', 'Bricklayer', 'Factory Worker', 'Electrician', 'Painter and Decorator']
+2023-08-23 16:47:00,098 : INFO : test_e2end : ['85%', '83%', '82%', '80%', '80%', '75%', '74%', '74%', '70%', '70%']
+2023-08-23 16:47:00,098 : INFO : test_e2end : Data verification successful for the 2nd and 3rd columns.
+2023-08-23 16:48:20,513 : INFO : test_e2end : username entered
+2023-08-23 16:48:20,604 : INFO : test_e2end : Passwd entered
+2023-08-23 16:48:20,711 : INFO : test_e2end : submit
+2023-08-23 16:48:23,958 : INFO : test_e2end : take new quiz
+2023-08-23 16:48:24,889 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:48:27,590 : INFO : test_e2end : Page 2 saved
+2023-08-23 16:48:28,735 : INFO : test_e2end : Page 3 saved
+2023-08-23 16:48:30,405 : INFO : test_e2end : Page 4 saved
+2023-08-23 16:48:32,129 : INFO : test_e2end : Page 5 saved
+2023-08-23 16:48:33,419 : INFO : test_e2end : Page 6 saved
+2023-08-23 16:48:35,172 : INFO : test_e2end : Page 7 saved
+2023-08-23 16:48:36,901 : INFO : test_e2end : Page 8 saved
+2023-08-23 16:48:38,573 : INFO : test_e2end : Page 9 saved
+2023-08-23 16:48:40,303 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 16:48:40,738 : INFO : test_e2end : Quiz submitted
+2023-08-23 16:48:40,738 : INFO : test_e2end : retake_wait
+2023-08-23 16:48:45,062 : INFO : test_e2end : take_quiz_again
+2023-08-23 16:48:46,219 : INFO : test_e2end : max limit(5) of taking quiz reached.
+2023-08-23 16:48:46,238 : INFO : test_e2end : table located
+2023-08-23 16:48:46,256 : INFO : test_e2end : Loop through each row and extract the data from the 3rd and 4th column
+2023-08-23 16:48:46,760 : INFO : test_e2end : ['Roofer', 'Electrician', 'Plasterer', 'Plumber', 'Bricklayer', 'Carpenter', 'Painter and Decorator', 'Firefighter', 'Labourer', 'Soldier in the Army']
+2023-08-23 16:48:46,760 : INFO : test_e2end : ['95%', '93%', '91%', '91%', '88%', '88%', '88%', '87%', '87%', '86%']
+2023-08-23 16:48:46,760 : INFO : test_e2end : Data verification failed for the 2nd and 3rd columns.
+2023-08-23 16:51:13,343 : INFO : test_e2end : username entered
+2023-08-23 16:51:13,428 : INFO : test_e2end : Passwd entered
+2023-08-23 16:51:13,535 : INFO : test_e2end : submit
+2023-08-23 16:51:17,607 : INFO : test_e2end : take new quiz
+2023-08-23 16:51:18,328 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:51:21,588 : INFO : test_e2end : Page 2 saved
+2023-08-23 16:51:22,713 : INFO : test_e2end : Page 3 saved
+2023-08-23 16:51:24,070 : INFO : test_e2end : Page 4 saved
+2023-08-23 16:51:25,400 : INFO : test_e2end : Page 5 saved
+2023-08-23 16:51:26,590 : INFO : test_e2end : Page 6 saved
+2023-08-23 16:51:28,796 : INFO : test_e2end : Page 7 saved
+2023-08-23 16:51:30,892 : INFO : test_e2end : Page 8 saved
+2023-08-23 16:51:32,508 : INFO : test_e2end : Page 9 saved
+2023-08-23 16:51:33,162 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 16:51:33,742 : INFO : test_e2end : Quiz submitted
+2023-08-23 16:51:33,745 : INFO : test_e2end : retake_wait
+2023-08-23 16:51:39,137 : INFO : test_e2end : take_quiz_again
+2023-08-23 16:51:40,909 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:51:44,524 : INFO : test_e2end : Page 2 saved
+2023-08-23 16:51:45,690 : INFO : test_e2end : Page 3 saved
+2023-08-23 16:51:47,288 : INFO : test_e2end : Page 4 saved
+2023-08-23 16:51:48,943 : INFO : test_e2end : Page 5 saved
+2023-08-23 16:51:50,195 : INFO : test_e2end : Page 6 saved
+2023-08-23 16:51:51,858 : INFO : test_e2end : Page 7 saved
+2023-08-23 16:51:54,069 : INFO : test_e2end : Page 8 saved
+2023-08-23 16:51:56,262 : INFO : test_e2end : Page 9 saved
+2023-08-23 16:51:57,424 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 16:51:57,910 : INFO : test_e2end : Quiz submitted
+2023-08-23 16:51:57,910 : INFO : test_e2end : retake_wait
+2023-08-23 16:52:02,228 : INFO : test_e2end : take_quiz_again
+2023-08-23 16:52:03,909 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:52:06,678 : INFO : test_e2end : Page 2 saved
+2023-08-23 16:52:08,286 : INFO : test_e2end : Page 3 saved
+2023-08-23 16:52:09,623 : INFO : test_e2end : Page 4 saved
+2023-08-23 16:52:11,685 : INFO : test_e2end : Page 5 saved
+2023-08-23 16:52:13,481 : INFO : test_e2end : Page 6 saved
+2023-08-23 16:52:15,651 : INFO : test_e2end : Page 7 saved
+2023-08-23 16:52:17,807 : INFO : test_e2end : Page 8 saved
+2023-08-23 16:52:19,873 : INFO : test_e2end : Page 9 saved
+2023-08-23 16:52:21,050 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 16:52:21,542 : INFO : test_e2end : Quiz submitted
+2023-08-23 16:52:21,544 : INFO : test_e2end : retake_wait
+2023-08-23 16:52:26,389 : INFO : test_e2end : take_quiz_again
+2023-08-23 16:52:28,259 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:52:30,942 : INFO : test_e2end : Page 2 saved
+2023-08-23 16:52:32,565 : INFO : test_e2end : Page 3 saved
+2023-08-23 16:52:34,294 : INFO : test_e2end : Page 4 saved
+2023-08-23 16:52:36,418 : INFO : test_e2end : Page 5 saved
+2023-08-23 16:52:37,744 : INFO : test_e2end : Page 6 saved
+2023-08-23 16:52:39,368 : INFO : test_e2end : Page 7 saved
+2023-08-23 16:52:41,071 : INFO : test_e2end : Page 8 saved
+2023-08-23 16:52:43,126 : INFO : test_e2end : Page 9 saved
+2023-08-23 16:52:43,790 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 16:52:44,288 : INFO : test_e2end : Quiz submitted
+2023-08-23 16:52:44,288 : INFO : test_e2end : retake_wait
+2023-08-23 16:52:48,112 : INFO : test_e2end : take_quiz_again
+2023-08-23 16:52:49,876 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:52:52,591 : INFO : test_e2end : Page 2 saved
+2023-08-23 16:52:54,232 : INFO : test_e2end : Page 3 saved
+2023-08-23 16:52:55,940 : INFO : test_e2end : Page 4 saved
+2023-08-23 16:52:57,627 : INFO : test_e2end : Page 5 saved
+2023-08-23 16:52:59,392 : INFO : test_e2end : Page 6 saved
+2023-08-23 16:53:00,934 : INFO : test_e2end : Page 7 saved
+2023-08-23 16:53:02,593 : INFO : test_e2end : Page 8 saved
+2023-08-23 16:53:04,203 : INFO : test_e2end : Page 9 saved
+2023-08-23 16:53:05,336 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 16:53:05,828 : INFO : test_e2end : Quiz submitted
+2023-08-23 16:53:05,829 : INFO : test_e2end : retake_wait
+2023-08-23 16:53:15,922 : INFO : test_e2end : max limit(5) of taking quiz reached.
+2023-08-23 16:53:15,953 : INFO : test_e2end : table located
+2023-08-23 16:53:16,013 : INFO : test_e2end : Loop through each row and extract the data from the 3rd and 4th column
+2023-08-23 16:53:16,634 : INFO : test_e2end : ['Plumber', 'Sports Coach', 'Animal Attendant', 'Plasterer', 'Veterinary Nurse', 'Nurse', 'Bricklayer', 'Factory Worker', 'Electrician', 'Painter and Decorator']
+2023-08-23 16:53:16,634 : INFO : test_e2end : ['85%', '83%', '82%', '80%', '80%', '75%', '74%', '74%', '70%', '70%']
+2023-08-23 16:53:16,634 : INFO : test_e2end : Data verification successful for the 2nd and 3rd columns.
+2023-08-23 16:59:35,783 : INFO : test_e2end : username entered
+2023-08-23 16:59:35,873 : INFO : test_e2end : Passwd entered
+2023-08-23 16:59:35,983 : INFO : test_e2end : submit
+2023-08-23 16:59:40,139 : INFO : test_e2end : take new quiz
+2023-08-23 16:59:40,738 : INFO : test_e2end : Page 1 saved
+2023-08-23 16:59:43,317 : INFO : test_e2end : Page 2 saved
+2023-08-23 16:59:44,336 : INFO : test_e2end : Page 3 saved
+2023-08-23 16:59:46,358 : INFO : test_e2end : Page 4 saved
+2023-08-23 16:59:47,727 : INFO : test_e2end : Page 5 saved
+2023-08-23 16:59:49,458 : INFO : test_e2end : Page 6 saved
+2023-08-23 16:59:51,601 : INFO : test_e2end : Page 7 saved
+2023-08-23 16:59:53,351 : INFO : test_e2end : Page 8 saved
+2023-08-23 16:59:54,904 : INFO : test_e2end : Page 9 saved
+2023-08-23 16:59:56,075 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 16:59:56,524 : INFO : test_e2end : Quiz submitted
+2023-08-23 16:59:56,524 : INFO : test_e2end : retake_wait
+2023-08-23 17:00:00,888 : INFO : test_e2end : take_quiz_again
+2023-08-23 17:00:02,557 : INFO : test_e2end : Page 1 saved
+2023-08-23 17:00:05,675 : INFO : test_e2end : Page 2 saved
+2023-08-23 17:00:07,183 : INFO : test_e2end : Page 3 saved
+2023-08-23 17:00:08,620 : INFO : test_e2end : Page 4 saved
+2023-08-23 17:00:10,689 : INFO : test_e2end : Page 5 saved
+2023-08-23 17:00:12,913 : INFO : test_e2end : Page 6 saved
+2023-08-23 17:00:15,462 : INFO : test_e2end : Page 7 saved
+2023-08-23 17:00:17,498 : INFO : test_e2end : Page 8 saved
+2023-08-23 17:00:19,575 : INFO : test_e2end : Page 9 saved
+2023-08-23 17:00:20,771 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 17:00:21,220 : INFO : test_e2end : Quiz submitted
+2023-08-23 17:00:21,220 : INFO : test_e2end : retake_wait
+2023-08-23 17:00:25,507 : INFO : test_e2end : take_quiz_again
+2023-08-23 17:00:27,173 : INFO : test_e2end : Page 1 saved
+2023-08-23 17:00:30,720 : INFO : test_e2end : Page 2 saved
+2023-08-23 17:00:32,262 : INFO : test_e2end : Page 3 saved
+2023-08-23 17:00:34,366 : INFO : test_e2end : Page 4 saved
+2023-08-23 17:00:36,302 : INFO : test_e2end : Page 5 saved
+2023-08-23 17:00:38,065 : INFO : test_e2end : Page 6 saved
+2023-08-23 17:00:40,121 : INFO : test_e2end : Page 7 saved
+2023-08-23 17:00:42,192 : INFO : test_e2end : Page 8 saved
+2023-08-23 17:00:43,747 : INFO : test_e2end : Page 9 saved
+2023-08-23 17:00:44,933 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 17:00:45,403 : INFO : test_e2end : Quiz submitted
+2023-08-23 17:00:45,403 : INFO : test_e2end : retake_wait
+2023-08-23 17:00:49,721 : INFO : test_e2end : take_quiz_again
+2023-08-23 17:00:51,020 : INFO : test_e2end : Page 1 saved
+2023-08-23 17:00:53,571 : INFO : test_e2end : Page 2 saved
+2023-08-23 17:00:54,708 : INFO : test_e2end : Page 3 saved
+2023-08-23 17:00:56,436 : INFO : test_e2end : Page 4 saved
+2023-08-23 17:00:58,154 : INFO : test_e2end : Page 5 saved
+2023-08-23 17:01:00,209 : INFO : test_e2end : Page 6 saved
+2023-08-23 17:01:01,305 : INFO : test_e2end : Page 7 saved
+2023-08-23 17:01:02,356 : INFO : test_e2end : Page 8 saved
+2023-08-23 17:01:04,082 : INFO : test_e2end : Page 9 saved
+2023-08-23 17:01:05,235 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 17:01:05,676 : INFO : test_e2end : Quiz submitted
+2023-08-23 17:01:05,677 : INFO : test_e2end : retake_wait
+2023-08-23 17:01:10,032 : INFO : test_e2end : take_quiz_again
+2023-08-23 17:01:11,722 : INFO : test_e2end : Page 1 saved
+2023-08-23 17:01:14,323 : INFO : test_e2end : Page 2 saved
+2023-08-23 17:01:15,323 : INFO : test_e2end : Page 3 saved
+2023-08-23 17:01:17,258 : INFO : test_e2end : Page 4 saved
+2023-08-23 17:01:19,311 : INFO : test_e2end : Page 5 saved
+2023-08-23 17:01:20,536 : INFO : test_e2end : Page 6 saved
+2023-08-23 17:01:22,105 : INFO : test_e2end : Page 7 saved
+2023-08-23 17:01:23,462 : INFO : test_e2end : Page 8 saved
+2023-08-23 17:01:24,992 : INFO : test_e2end : Page 9 saved
+2023-08-23 17:01:26,123 : INFO : test_e2end : You have saved your quiz answers
+2023-08-23 17:01:26,436 : INFO : test_e2end : Quiz submitted
+2023-08-23 17:01:26,436 : INFO : test_e2end : retake_wait
+2023-08-23 17:01:36,467 : INFO : test_e2end : max limit(5) of taking quiz reached.
+2023-08-23 17:01:36,498 : INFO : test_e2end : table located
+2023-08-23 17:01:36,546 : INFO : test_e2end : Loop through each row and extract the data from the 3rd and 4th column
+2023-08-23 17:01:37,169 : INFO : test_e2end : ['Plumber', 'Sports Coach', 'Animal Attendant', 'Plasterer', 'Veterinary Nurse', 'Nurse', 'Bricklayer', 'Factory Worker', 'Electrician', 'Painter and Decorator']
+2023-08-23 17:01:37,169 : INFO : test_e2end : ['85%', '83%', '82%', '80%', '80%', '75%', '74%', '74%', '70%', '70%']
+2023-08-23 17:01:37,169 : INFO : test_e2end : Data verification successful for the 2nd and 3rd columns.
+2023-08-23 17:27:32,974 : INFO : test_e2end : username entered
+2023-08-23 17:27:33,090 : INFO : test_e2end : Passwd entered
+2023-08-23 17:27:33,315 : INFO : test_e2end : submit
+2023-08-23 18:06:36,074 : INFO : test_e2end : username entered
+2023-08-23 18:06:36,152 : INFO : test_e2end : Passwd entered
+2023-08-23 18:37:53,996 : INFO : test_e2end : username entered
+2023-08-23 18:38:31,246 : INFO : test_e2end : username entered
+2023-08-23 20:04:59,713 : INFO : test_e2end : username entered
+2023-08-23 20:04:59,798 : INFO : test_e2end : Passwd entered
+2023-08-23 20:04:59,912 : INFO : test_e2end : submit
+2023-08-23 21:00:12,180 : INFO : test_e2end : username entered
+2023-08-23 21:00:12,240 : INFO : test_e2end : Passwd entered
+2023-08-23 21:00:12,328 : INFO : test_e2end : submit
+2023-08-23 21:35:03,602 : INFO : test_e2end : username entered
+2023-08-23 21:35:03,664 : INFO : test_e2end : Passwd entered
+2023-08-23 21:35:03,769 : INFO : test_e2end : submit
+2023-08-23 23:21:45,177 : INFO : test_e2end : username entered
+2023-08-23 23:21:45,605 : INFO : test_e2end : Passwd entered
+2023-08-23 23:21:45,956 : INFO : test_e2end : submit
+2023-08-23 23:24:15,475 : INFO : test_e2end : username entered
+2023-08-23 23:24:15,558 : INFO : test_e2end : Passwd entered
+2023-08-23 23:24:15,620 : INFO : test_e2end : submit
+2023-08-23 23:24:56,835 : INFO : test_e2end : username entered
+2023-08-23 23:24:56,893 : INFO : test_e2end : Passwd entered
+2023-08-23 23:24:56,971 : INFO : test_e2end : submit
+2023-08-24 18:07:14,730 : INFO : test_e2end : username entered
+2023-08-24 18:07:14,856 : INFO : test_e2end : Passwd entered
+2023-08-24 18:07:14,968 : INFO : test_e2end : submit
+2023-08-25 15:47:56,994 : INFO : test_e2end : username entered
+2023-08-25 15:47:57,076 : INFO : test_e2end : Passwd entered
+2023-08-25 15:47:57,202 : INFO : test_e2end : submit
+2023-08-25 15:48:01,840 : INFO : test_e2end : take new quiz
+2023-08-25 15:48:02,480 : INFO : test_e2end : Page 1 saved
+2023-08-25 15:48:05,181 : INFO : test_e2end : Page 2 saved
+2023-08-25 15:48:06,051 : INFO : test_e2end : Page 3 saved
+2023-08-25 15:48:07,221 : INFO : test_e2end : Page 4 saved
+2023-08-25 15:48:09,163 : INFO : test_e2end : Page 5 saved
+2023-08-25 15:48:10,274 : INFO : test_e2end : Page 6 saved
+2023-08-25 15:48:11,753 : INFO : test_e2end : Page 7 saved
+2023-08-25 15:48:13,720 : INFO : test_e2end : Page 8 saved
+2023-08-25 15:48:15,087 : INFO : test_e2end : Page 9 saved
+2023-08-25 15:48:15,726 : INFO : test_e2end : You have saved your quiz answers
+2023-08-25 15:48:16,116 : INFO : test_e2end : Quiz submitted
+2023-08-25 15:48:16,116 : INFO : test_e2end : retake_wait
+2023-08-25 15:48:19,888 : INFO : test_e2end : take_quiz_again
+2023-08-25 15:48:21,288 : INFO : test_e2end : Page 1 saved
+2023-08-25 15:48:23,702 : INFO : test_e2end : Page 2 saved
+2023-08-25 15:48:24,794 : INFO : test_e2end : Page 3 saved
+2023-08-25 15:48:26,312 : INFO : test_e2end : Page 4 saved
+2023-08-25 15:48:28,141 : INFO : test_e2end : Page 5 saved
+2023-08-25 15:48:29,746 : INFO : test_e2end : Page 6 saved
+2023-08-25 15:48:31,604 : INFO : test_e2end : Page 7 saved
+2023-08-25 15:48:33,536 : INFO : test_e2end : Page 8 saved
+2023-08-25 15:48:34,838 : INFO : test_e2end : Page 9 saved
+2023-08-25 15:48:35,987 : INFO : test_e2end : You have saved your quiz answers
+2023-08-25 15:48:36,394 : INFO : test_e2end : Quiz submitted
+2023-08-25 15:48:36,394 : INFO : test_e2end : retake_wait
+2023-08-25 15:48:41,226 : INFO : test_e2end : take_quiz_again
+2023-08-25 15:48:42,800 : INFO : test_e2end : Page 1 saved
+2023-08-25 15:48:45,447 : INFO : test_e2end : Page 2 saved
+2023-08-25 15:48:46,585 : INFO : test_e2end : Page 3 saved
+2023-08-25 15:48:47,978 : INFO : test_e2end : Page 4 saved
+2023-08-25 15:48:49,293 : INFO : test_e2end : Page 5 saved
+2023-08-25 15:48:50,957 : INFO : test_e2end : Page 6 saved
+2023-08-25 15:48:52,814 : INFO : test_e2end : Page 7 saved
+2023-08-25 15:48:54,459 : INFO : test_e2end : Page 8 saved
+2023-08-25 15:48:56,241 : INFO : test_e2end : Page 9 saved
+2023-08-25 15:48:57,429 : INFO : test_e2end : You have saved your quiz answers
+2023-08-25 15:48:57,727 : INFO : test_e2end : Quiz submitted
+2023-08-25 15:48:57,727 : INFO : test_e2end : retake_wait
+2023-08-25 15:49:02,024 : INFO : test_e2end : take_quiz_again
+2023-08-25 15:49:03,338 : INFO : test_e2end : Page 1 saved
+2023-08-25 15:49:05,571 : INFO : test_e2end : Page 2 saved
+2023-08-25 15:49:06,469 : INFO : test_e2end : Page 3 saved
+2023-08-25 15:49:07,734 : INFO : test_e2end : Page 4 saved
+2023-08-25 15:49:08,959 : INFO : test_e2end : Page 5 saved
+2023-08-25 15:49:09,993 : INFO : test_e2end : Page 6 saved
+2023-08-25 15:49:11,262 : INFO : test_e2end : Page 7 saved
+2023-08-25 15:49:12,542 : INFO : test_e2end : Page 8 saved
+2023-08-25 15:49:14,313 : INFO : test_e2end : Page 9 saved
+2023-08-25 15:49:15,414 : INFO : test_e2end : You have saved your quiz answers
+2023-08-25 15:49:15,739 : INFO : test_e2end : Quiz submitted
+2023-08-25 15:49:15,739 : INFO : test_e2end : retake_wait
+2023-08-25 15:49:19,455 : INFO : test_e2end : take_quiz_again
+2023-08-25 15:49:20,794 : INFO : test_e2end : Page 1 saved
+2023-08-25 15:49:22,626 : INFO : test_e2end : Page 2 saved
+2023-08-25 15:49:23,574 : INFO : test_e2end : Page 3 saved
+2023-08-25 15:49:25,391 : INFO : test_e2end : Page 4 saved
+2023-08-25 15:49:27,086 : INFO : test_e2end : Page 5 saved
+2023-08-25 15:49:28,583 : INFO : test_e2end : Page 6 saved
+2023-08-25 15:49:29,887 : INFO : test_e2end : Page 7 saved
+2023-08-25 15:49:31,116 : INFO : test_e2end : Page 8 saved
+2023-08-25 15:49:32,897 : INFO : test_e2end : Page 9 saved
+2023-08-25 15:49:34,003 : INFO : test_e2end : You have saved your quiz answers
+2023-08-25 15:49:34,308 : INFO : test_e2end : Quiz submitted
+2023-08-25 15:49:34,308 : INFO : test_e2end : retake_wait
+2023-08-25 15:49:44,756 : INFO : test_e2end : max limit(5) of taking quiz reached.
+2023-08-25 15:49:44,781 : INFO : test_e2end : table located
+2023-08-25 15:49:44,801 : INFO : test_e2end : Loop through each row and extract the data from the 3rd and 4th column
+2023-08-25 15:49:45,335 : INFO : test_e2end : ['Plumber', 'Sports Coach', 'Animal Attendant', 'Plasterer', 'Veterinary Nurse', 'Nurse', 'Bricklayer', 'Factory Worker', 'Electrician', 'Painter and Decorator']
+2023-08-25 15:49:45,335 : INFO : test_e2end : ['85%', '83%', '82%', '80%', '80%', '75%', '74%', '74%', '70%', '70%']
+2023-08-25 15:49:45,335 : INFO : test_e2end : Data verification successful for the 2nd and 3rd columns.
+2023-08-25 16:14:57,044 : INFO : test_e2end : username entered
+2023-08-25 16:14:57,249 : INFO : test_e2end : Passwd entered
+2023-08-25 16:14:57,374 : INFO : test_e2end : submit
+2023-08-25 16:15:15,791 : INFO : test_e2end : username entered
+2023-08-25 16:15:15,866 : INFO : test_e2end : Passwd entered
+2023-08-25 16:15:15,954 : INFO : test_e2end : submit
+2023-08-25 16:15:20,116 : INFO : test_e2end : take new quiz
+2023-08-25 16:15:20,615 : INFO : test_e2end : Page 1 saved
+2023-08-25 16:15:22,793 : INFO : test_e2end : Page 2 saved
+2023-08-25 16:15:24,243 : INFO : test_e2end : Page 3 saved
+2023-08-25 16:15:25,347 : INFO : test_e2end : Page 4 saved
+2023-08-25 16:15:26,619 : INFO : test_e2end : Page 5 saved
+2023-08-25 16:15:28,168 : INFO : test_e2end : Page 6 saved
+2023-08-25 16:15:29,527 : INFO : test_e2end : Page 7 saved
+2023-08-25 16:15:30,829 : INFO : test_e2end : Page 8 saved
+2023-08-25 16:15:33,839 : INFO : test_e2end : Page 9 saved
+2023-08-25 16:15:35,059 : INFO : test_e2end : You have saved your quiz answers
+2023-08-25 16:15:35,426 : INFO : test_e2end : Quiz submitted
+2023-08-25 16:15:35,426 : INFO : test_e2end : retake_wait
+2023-08-25 16:15:39,767 : INFO : test_e2end : take_quiz_again
+2023-08-25 16:15:41,155 : INFO : test_e2end : Page 1 saved
+2023-08-25 16:15:44,001 : INFO : test_e2end : Page 2 saved
+2023-08-25 16:15:44,887 : INFO : test_e2end : Page 3 saved
+2023-08-25 16:15:46,362 : INFO : test_e2end : Page 4 saved
+2023-08-25 16:15:47,689 : INFO : test_e2end : Page 5 saved
+2023-08-25 16:15:48,851 : INFO : test_e2end : Page 6 saved
+2023-08-25 16:15:50,209 : INFO : test_e2end : Page 7 saved
+2023-08-25 16:15:52,028 : INFO : test_e2end : Page 8 saved
+2023-08-25 16:15:53,897 : INFO : test_e2end : Page 9 saved
+2023-08-25 16:15:55,024 : INFO : test_e2end : You have saved your quiz answers
+2023-08-25 16:15:55,292 : INFO : test_e2end : Quiz submitted
+2023-08-25 16:15:55,292 : INFO : test_e2end : retake_wait
+2023-08-25 16:15:59,550 : INFO : test_e2end : take_quiz_again
+2023-08-25 16:16:00,886 : INFO : test_e2end : Page 1 saved
+2023-08-25 16:16:04,725 : INFO : test_e2end : Page 2 saved
+2023-08-25 16:16:05,601 : INFO : test_e2end : Page 3 saved
+2023-08-25 16:16:06,799 : INFO : test_e2end : Page 4 saved
+2023-08-25 16:16:08,006 : INFO : test_e2end : Page 5 saved
+2023-08-25 16:16:09,537 : INFO : test_e2end : Page 6 saved
+2023-08-25 16:16:10,737 : INFO : test_e2end : Page 7 saved
+2023-08-25 16:16:12,478 : INFO : test_e2end : Page 8 saved
+2023-08-25 16:16:14,262 : INFO : test_e2end : Page 9 saved
+2023-08-25 16:16:15,383 : INFO : test_e2end : You have saved your quiz answers
+2023-08-25 16:16:15,685 : INFO : test_e2end : Quiz submitted
+2023-08-25 16:16:15,685 : INFO : test_e2end : retake_wait
+2023-08-25 16:16:19,403 : INFO : test_e2end : take_quiz_again
+2023-08-25 16:16:20,657 : INFO : test_e2end : Page 1 saved
+2023-08-25 16:16:22,717 : INFO : test_e2end : Page 2 saved
+2023-08-25 16:16:23,728 : INFO : test_e2end : Page 3 saved
+2023-08-25 16:16:25,013 : INFO : test_e2end : Page 4 saved
+2023-08-25 16:16:26,127 : INFO : test_e2end : Page 5 saved
+2023-08-25 16:16:27,516 : INFO : test_e2end : Page 6 saved
+2023-08-25 16:16:28,610 : INFO : test_e2end : Page 7 saved
+2023-08-25 16:16:29,602 : INFO : test_e2end : Page 8 saved
+2023-08-25 16:16:31,217 : INFO : test_e2end : Page 9 saved
+2023-08-25 16:16:32,325 : INFO : test_e2end : You have saved your quiz answers
+2023-08-25 16:16:32,499 : INFO : test_e2end : Quiz submitted
+2023-08-25 16:16:32,499 : INFO : test_e2end : retake_wait
+2023-08-25 16:16:36,660 : INFO : test_e2end : take_quiz_again
+2023-08-25 16:16:37,805 : INFO : test_e2end : Page 1 saved
+2023-08-25 16:16:40,643 : INFO : test_e2end : Page 2 saved
+2023-08-25 16:16:41,552 : INFO : test_e2end : Page 3 saved
+2023-08-25 16:16:42,732 : INFO : test_e2end : Page 4 saved
+2023-08-25 16:16:44,021 : INFO : test_e2end : Page 5 saved
+2023-08-25 16:16:45,185 : INFO : test_e2end : Page 6 saved
+2023-08-25 16:16:46,803 : INFO : test_e2end : Page 7 saved
+2023-08-25 16:16:48,090 : INFO : test_e2end : Page 8 saved
+2023-08-25 16:16:49,857 : INFO : test_e2end : Page 9 saved
+2023-08-25 16:16:50,990 : INFO : test_e2end : You have saved your quiz answers
+2023-08-25 16:16:51,385 : INFO : test_e2end : Quiz submitted
+2023-08-25 16:16:51,385 : INFO : test_e2end : retake_wait
+2023-08-25 16:17:01,410 : INFO : test_e2end : max limit(5) of taking quiz reached.
+2023-08-25 16:17:01,441 : INFO : test_e2end : table located
+2023-08-25 16:17:01,499 : INFO : test_e2end : Loop through each row and extract the data from the 3rd and 4th column
+2023-08-25 16:17:02,111 : INFO : test_e2end : ['Plumber', 'Sports Coach', 'Animal Attendant', 'Plasterer', 'Veterinary Nurse', 'Nurse', 'Bricklayer', 'Factory Worker', 'Electrician', 'Painter and Decorator']
+2023-08-25 16:17:02,111 : INFO : test_e2end : ['85%', '83%', '82%', '80%', '80%', '75%', '74%', '74%', '70%', '70%']
+2023-08-25 16:17:02,111 : INFO : test_e2end : Data verification successful for the 2nd and 3rd columns.

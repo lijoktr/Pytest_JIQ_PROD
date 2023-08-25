@@ -12,29 +12,29 @@ class ci1:
     def __init__(self, driver):
         self.driver = driver
 
-    q1 = (By.XPATH, "//*[contains(@id,'21f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
+    q1 = (By.XPATH, "//*[contains(@id,'d7ecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[3]/span/label/span[1]/span")
 
-    q2 = (By.XPATH, "//*[contains(@id,'31f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
+    q2 = (By.XPATH, "//*[contains(@id,'dcecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[3]/span/label/span[1]/span")
 
-    q3 = (By.XPATH, "//*[contains(@id,'34f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[2]/span/label/span[1]/span")
+    q3 = (By.XPATH, "//*[contains(@id,'deecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[2]/span/label/span[1]/span")
 
-    q4 = (By.XPATH, "//*[contains(@id,'3cf9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
+    q4 = (By.XPATH, "//*[contains(@id,'e5ecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[3]/span/label/span[1]/span")
 
-    q5 = (By.XPATH, "//*[contains(@id,'3ff9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
+    q5 = (By.XPATH, "//*[contains(@id,'e7ecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[3]/span/label/span[1]/span")
 
-    q6 = (By.XPATH, "//*[contains(@id,'4af9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[1]/span/label/span[1]/span")
+    q6 = (By.XPATH, "//*[contains(@id,'eeecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[1]/span/label/span[1]/span")
 
-    q7 = (By.XPATH, "//*[contains(@id,'50f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[1]/span/label/span[1]/span")
+    q7 = (By.XPATH, "//*[contains(@id,'f1ecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[1]/span/label/span[1]/span")
 
-    q8 = (By.XPATH, "//*[contains(@id,'54f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[1]/span/label/span[1]/span")
+    q8 = (By.XPATH, "//*[contains(@id,'f5ecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[1]/span/label/span[1]/span")
 
-    q9 = (By.XPATH, "//*[contains(@id,'55f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[1]/span/label/span[1]/span")
+    q9 = (By.XPATH, "//*[contains(@id,'f6ecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[1]/span/label/span[1]/span")
 
-    q10 = (By.XPATH, "//*[contains(@id,'56f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
+    q10 = (By.XPATH, "//*[contains(@id,'f8ecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[3]/span/label/span[1]/span")
 
-    q11 = (By.XPATH, "//*[contains(@id,'59f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[2]/span/label/span[1]/span")
+    q11 = (By.XPATH, "//*[contains(@id,'fcecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[2]/span/label/span[1]/span")
 
-    q12 = (By.XPATH, "//*[contains(@id,'5af9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
+    q12 = (By.XPATH, "//*[contains(@id,'fdecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[3]/span/label/span[1]/span")
 
     # next = (By.XPATH, "//*[contains(@title,'Link to next')]")
 

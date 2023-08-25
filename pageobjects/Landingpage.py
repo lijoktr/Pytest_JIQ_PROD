@@ -18,7 +18,7 @@ class lp:
     takequiz = (By.XPATH, "//a[@title='Link to Take Job Ideas Quiz']")
 
     def signin_wait(self):
-        Wait = WebDriverWait(self.driver, 160).until(
+        Wait = WebDriverWait(self.driver, 20).until(
             ec.visibility_of_element_located((lp.signin)))
 
     def sign_button(self):

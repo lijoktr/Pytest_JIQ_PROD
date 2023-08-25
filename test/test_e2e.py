@@ -306,7 +306,7 @@ class Testing(base_clas):
 
             except:
                 log.info("max limit(5) of taking quiz reached.")
-<<<<<<< HEAD
+
 
                 # Find the table element
                 table = result.table()  # Replace with the actual table locator
@@ -346,7 +346,7 @@ class Testing(base_clas):
                 else:
                     log.info("Data verification failed for the 2nd and 3rd columns.")
                 return
-=======
+
 
                 # Find the table element
                 table = result.table()  # Replace with the actual table locator
@@ -387,7 +387,6 @@ class Testing(base_clas):
                     log.info("Data verification failed for the 2nd and 3rd columns.")
 
                 self.driver.quit()
->>>>>>> 5ba2ad54f3ee954d0cbd51cb94064013f6151cd4
 
     @pytest.fixture(params=Page.datavalue)
     def getdata(self, request):

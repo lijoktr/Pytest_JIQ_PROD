@@ -11,31 +11,31 @@ class We1:
     def __init__(self, driver):
         self.driver = driver
 
-    we_q1 = (By.XPATH, "//*[contains(@id,'2cf9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[2]/span/label/span[1]/span")
+    we_q1 = (By.XPATH, "//*[contains(@id,'d9ecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[2]/span/label/span[1]/span")
 
-    we_q2 = (By.XPATH, "//*[contains(@id,'2ff9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[2]/span/label/span[1]/span")
+    we_q2 = (By.XPATH, "//*[contains(@id,'dbecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[2]/span/label/span[1]/span")
 
-    we_q3 = (By.XPATH, "//*[contains(@id,'35f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[2]/span/label/span[1]/span")
+    we_q3 = (By.XPATH, "//*[contains(@id,'dfecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[2]/span/label/span[1]/span")
 
-    we_q4 = (By.XPATH, "//*[contains(@id,'38f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[1]/span/label/span[1]/span")
+    we_q4 = (By.XPATH, "//*[contains(@id,'e2ecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[1]/span/label/span[1]/span")
 
-    we_q5 = (By.XPATH, "//*[contains(@id,'39f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
+    we_q5 = (By.XPATH, "//*[contains(@id,'e3ecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[3]/span/label/span[1]/span")
 
-    we_q6 = (By.XPATH, "//*[contains(@id,'3af9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[2]/span/label/span[1]/span")
+    we_q6 = (By.XPATH, "//*[contains(@id,'e4ecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[2]/span/label/span[1]/span")
 
-    we_q7 = (By.XPATH, "//*[contains(@id,'41f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[1]/span/label/span[1]/span")
+    we_q7 = (By.XPATH, "//*[contains(@id,'e8ecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[1]/span/label/span[1]/span")
 
-    we_q8 = (By.XPATH, "//*[contains(@id,'42f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[1]/span/label/span[1]/span")
+    we_q8 = (By.XPATH, "//*[contains(@id,'e9ecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[1]/span/label/span[1]/span")
 
-    we_q9 = (By.XPATH, "//*[contains(@id,'43f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[1]/span/label/span[1]/span")
+    we_q9 = (By.XPATH, "//*[contains(@id,'eaecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[1]/span/label/span[1]/span")
 
-    we_q10 = (By.XPATH, "//*[contains(@id,'44f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[2]/span/label/span[1]/span")
+    we_q10 = (By.XPATH, "//*[contains(@id,'ebecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[2]/span/label/span[1]/span")
 
     we_success = (By.CSS_SELECTOR, "[class*='notice--positive']")
 
-    we_q11 = (By.XPATH, "//*[contains(@id,'4bf9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[1]/span/label/span[1]/span")
+    we_q11 = (By.XPATH, "//*[contains(@id,'efecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[1]/span/label/span[1]/span")
 
-    we_q12 = (By.XPATH, "//*[contains(@id,'58f9d7c4-5800-ee11-8f6d-0022481b547c')]/div/div[3]/span/label/span[1]/span")
+    we_q12 = (By.XPATH, "//*[contains(@id,'fbecb72c-d31b-ee11-8f6d-0022481b5881')]/div/div[3]/span/label/span[1]/span")
 
     submit_button = (By.XPATH, "//button[@title='Link to Submit']")
 
