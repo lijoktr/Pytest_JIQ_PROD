@@ -11,7 +11,6 @@ from selenium import webdriver
 
 
 driver = None
-chromedriver_path = "C:/Users/lijom/Downloads/chromedriver-win64/chromedriver-win64/chromedriver.exe"
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
@@ -37,13 +36,13 @@ def setup(request):
     browser_name = request.config.getoption("browser_name")
 
     if browser_name == "chrome":
-        driver = webdriver.Chrome()
+        # driver = webdriver.Chrome()
         # headless
-        # driver = webdriver.Chrome(options=chrome_options)
+        driver = webdriver.Chrome(options=chrome_options)
     elif browser_name == "edge":
-        driver = webdriver.Edge()
+        # driver = webdriver.Edge()
         # headless
-        # driver = webdriver.Edge(options=options)
+        driver = webdriver.Edge(options=options)
     driver.get("https://careerswales.gov.wales/job-ideas-quiz")
 
     driver.maximize_window()
